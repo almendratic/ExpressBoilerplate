@@ -4,6 +4,8 @@ const bodyParser = require('body-parser');
 const compression = require('compression');
 const serveFavicon = require('serve-favicon');
 
+require('dotenv').load();
+
 // Boilerplate
 const m = require('./core/models');
 const config = require('./config');
